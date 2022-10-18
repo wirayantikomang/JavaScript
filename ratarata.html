@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Menghitung Rata Rata</title>
+
+    <body>
+        <script>
+            var daftarNilai = [70, 75, 80, 85, 50, 87, 95];
+            var namaMatkul = ['pbo', 'rpl', 'platfrom', 'sdl']
+            var jmlNilai = 0;
+            for (i in daftarNilai) {
+                jmlNilai += daftarNilai[i];
+            }
+            var rataRata = jmlNilai / daftarNilai.length;
+            alert('Rata-rata nilai adalah ' + rataRata.toFixed(2));
+        </script>
+    </body>
+
+</head>
+
+</html>

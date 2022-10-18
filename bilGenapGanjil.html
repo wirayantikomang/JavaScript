@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>bilangan genap atau ganjil</title>
+</head>
+
+<body>
+    <script>
+        function cek() {
+            var bilangan = document.getElementById('input').value;
+            var notif;
+            if (bilangan % 2 == 0) {
+                notif = "Bilangan " + bilangan + " Adalah Bilangan Genap";
+            } else {
+                notif = "Bilangan " + bilangan + " Adalah Bilangan Ganjil";
+            }
+            alert(notif);
+        }
+    </script>
+
+    <label for="">MASUKAN ANGKA</label>
+    <input type="number" id="input">
+    <button onclick="cek()">CEK</button>
+</body>
+
+</html>
